@@ -18,5 +18,5 @@ jobs:
       - name: Install pytest
         run: pip install pytest
 
-      - name: Run tests
-        run: pytest -v
+      - name: Run tests (add src to Python path)
+        run: PYTHONPATH=src pytest -v
