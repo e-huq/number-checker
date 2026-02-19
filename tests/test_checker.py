@@ -1,4 +1,4 @@
-from src.checker import is_even, is_odd
+from checker import is_even, is_odd
 
 def test_even_number():
     assert is_even(4) is True
